@@ -1,0 +1,19 @@
+package Conditions_and_loops;
+
+public class IfelseCondition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int age=10;
+		if(age>10)
+		{
+			System.out.println("you are 11th year old");
+		}
+		else
+		{
+			System.out.println("You are not above 10 year");
+		}
+
+	}
+
+}

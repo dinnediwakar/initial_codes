@@ -1,0 +1,10 @@
+package startingprogram;
+
+public class ScannerOutput {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,32 @@
+package Conditions_and_loops;
+
+import java.util.Scanner;
+
+public class SwitchStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan=new Scanner(System.in);
+		int a=scan.nextInt();
+		switch(a)
+		{
+		case 1:
+			System.out.println("1 is correct");
+			break;
+		case 2:
+			System.out.println("2 is correct");
+			break;
+		case 10:
+			System.out.println("10 is the answer");
+			break;
+		case 12:
+			System.out.println("12 is coorect");
+			break;
+		default:
+			System.out.println("this is default case");
+			break;
+		}
+
+	}
+
+}

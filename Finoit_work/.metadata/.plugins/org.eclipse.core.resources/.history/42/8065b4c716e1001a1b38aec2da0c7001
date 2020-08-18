@@ -1,0 +1,26 @@
+package Conditions_and_loops;
+
+public class SwitchStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=10;
+		switch(a)
+		{
+		case 1:
+			System.out.println("1 is correct");
+			break;
+		case 2:
+			System.out.println("2 is correct");
+			break;
+		case 10:
+			System.out.println("10 is the answer");
+		case 12:
+			System.out.println("12 is coorect");
+		default:
+			System.out.println("this is default case");
+		}
+
+	}
+
+}

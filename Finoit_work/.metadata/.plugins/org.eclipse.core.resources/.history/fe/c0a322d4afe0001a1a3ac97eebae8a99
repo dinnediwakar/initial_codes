@@ -1,0 +1,17 @@
+package startingprogram;
+
+public class TypeCasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("We start from implicity type casting");
+		System.out.println();
+		int a=10;
+		long b=a;
+		System.out.println(b);
+		float c=a;
+		System.out.println(c);
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package startingprogram;
+
+public class TypeCasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("We start from implicity type casting");
+		System.out.println();
+		int a=10;
+		long b=a;
+		System.out.println(b);
+		float c=a;
+		System.out.println(c);
+		byte d=1;
+		double e=d;
+		System.out.println(e);
+		System.out.println("Implicity type casting is close");
+		System.out.println();
+		System.out.println("Explicity type casting is start");
+		int n=10;
+		byte m=(int) n;
+		System.out.println(m);
+
+	}
+
+}
